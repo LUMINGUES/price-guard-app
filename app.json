@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "price-guard-app",
-    "slug": "snack-7d89cc9f-8bd2-4be8-84b6-1118af09fab9",
+    "name": "Price Guard",
+    "slug": "price-guard-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false, 
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -21,10 +21,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.zelukaz.snack7d89cc9f8bd24be884b61118af09fab9"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "com.zelukaz.priceguard"
     },
     "extra": {
       "eas": {
