@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.zelukaz.snack7d89cc9f8bd24be884b61118af09fab9"
     },
     "web": {
       "favicon": "./assets/favicon.png"
