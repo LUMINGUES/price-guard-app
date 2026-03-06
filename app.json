@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": false, 
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -23,6 +23,15 @@
       "edgeToEdgeEnabled": true,
       "package": "com.zelukaz.priceguard"
     },
+    "plugins": [
+      "react-native-paper",
+      [
+        "expo-font",
+        {
+          "fonts": ["node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"]
+        }
+      ]
+    ],
     "extra": {
       "eas": {
         "projectId": "b428793a-cbee-4e01-bcce-5ef54bd2dff7"
