@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Price Guard",
-    "slug": "price-guard-app",
+    "name": "price-guard-app",
+    "slug": "snack-7d89cc9f-8bd2-4be8-84b6-1118af09fab9",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -21,17 +21,11 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.zelukaz.priceguard"
+      "package": "com.zelukaz.snack7d89cc9f8bd24be884b61118af09fab9"
     },
-    "plugins": [
-      "react-native-paper",
-      [
-        "expo-font",
-        {
-          "fonts": ["node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"]
-        }
-      ]
-    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
     "extra": {
       "eas": {
         "projectId": "b428793a-cbee-4e01-bcce-5ef54bd2dff7"
